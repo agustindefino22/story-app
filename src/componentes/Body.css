@@ -1,35 +1,5 @@
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-  }
-  
-  .mesa {
-    display: flex;
-    gap: 10px;
-  }
-  
-  .dado {
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    background-color: #f0f0f0;
-    cursor: pointer;
-  }
-  
-  .controle {
-    margin-top: 20px;
-  }
-  
-  .historico {
-    margin-top: 20px;
-    text-align: center;
-  }
-  
-  .acessibilidade {
-    margin-top: 20px;
-  }
+.container-body{
+  background-color:#bce3c5;
+  min-height: calc(100vh - 60px);
+
+}

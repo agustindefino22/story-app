@@ -1,17 +1,12 @@
-import React from 'react';
-import './Acessibilidade.css';S
+import React from 'react'
+import "./Acessibilidade.css"
 
-const Acessibilidade = ({ dados }) => {
+const Acessibilidade = () => {
   return (
-    <div className="acessibilidade">
-      <p>Dados Sorteados:</p>
-      {dados.map((emoji, index) => (
-        <p key={index} aria-live="polite">
-          {emoji}
-        </p>
-      ))}
+    <div className='container-acessibilidade' >
+        <h1>Seja muito bem-vindo!</h1>
     </div>
-  );
-};
+  )
+}
 
-export default Acessibilidade;
+export default Acessibilidade
