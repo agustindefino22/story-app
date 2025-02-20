@@ -4,10 +4,10 @@
   background: linear-gradient(45deg, #ff6b6b, #ffcc5c, #4ecdc4, #5b5f97);
   background-size: 400% 400%;
   animation: gradientBG 8s infinite alternate;
-  padding: 20px;
+  padding: 60px 20px 20px 20px;
   text-align: center;
-  border-radius: 0 0 20px 20px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  height: 200px;
 }
 
 @keyframes gradientBG {
@@ -30,8 +30,12 @@
 
 .subtitle {
   font-size: 18px;
-  color: #fff;
+  color: #fdfdfd;
   margin-top: 10px;
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-family: 'Impact', 'Anton', 'Oswald', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }

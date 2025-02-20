@@ -1,5 +1,16 @@
 .container-body{
-  background-color:#bce3c5;
-  min-height: calc(100vh - 60px);
+  background: hsla(270, 94%, 25%, 1);
 
+  background: linear-gradient(90deg, hsla(270, 94%, 25%, 1) 0%, hsla(158, 94%, 49%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(270, 94%, 25%, 1) 0%, hsla(158, 94%, 49%, 1) 100%);
+  
+  background: -webkit-linear-gradient(90deg, hsla(270, 94%, 25%, 1) 0%, hsla(158, 94%, 49%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#42047E", endColorstr="#07F49E", GradientType=1 );
+
+}
+
+.emoji{
+  font-size: 120px;
 }

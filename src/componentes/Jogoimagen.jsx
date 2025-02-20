@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Jogoimagen.css';
 
 function Jogoimagen() {
-  const emojis = ['😊', '😂', '😍', '😎', '🥺', '🤔', '😜', '🤯', '😈', '😇', '😁', '😘', '😂'];
+  const emojis = ['🚀', '🪐', '🌠', '🌌', '👨‍🚀', '🛸', '🛰️', '👽', '👾', '🤖', '👻', '🎃', '👺', '👹', '💀', '🦇', '🕷️', '🐙', '🦈', '🐠', '🐳', '🐬', '🚢', '🌊', '🏝️', '⚓', '🦀', '🦞', '🐚'];;
 
   function sortearEmoji() {
     const i = Math.floor(Math.random() * emojis.length);
@@ -17,8 +17,8 @@ function Jogoimagen() {
 
   return (
     <div className="container">
-      <button onClick={responderClique}>Clique para jogar</button>
-      {emoji && <h3>Emoji sorteado: {emoji}</h3>}
+      
+      {emoji && <h3><span onClick={responderClique} className='emoji'>{emoji}</span></h3>}
     </div>
   );
 }

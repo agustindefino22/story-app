@@ -2,7 +2,6 @@
 import './App.css'
 import Body from './componentes/Body'
 import Header from './componentes/Header'
-import Acessibilidade from './componentes/Acessibilidade'
 
 
 function App() {
@@ -10,7 +9,6 @@ function App() {
 
   return (
     <>
-    <Acessibilidade/>
     <Header/>
     <Body/>
 
